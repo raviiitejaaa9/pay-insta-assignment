@@ -1,0 +1,10 @@
+.sec-3{
+    background-color: #ebe9e9;
+    width: 100vw;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+

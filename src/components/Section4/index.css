@@ -1,0 +1,34 @@
+.sec-4{
+    background-color: #f9feff;
+    width: 100vw;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.sec-4-img{
+    height: 350px;
+    width: 300px;
+}
+
+@media (max-width : 800px){
+
+    .sec-4{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .sec-4-data{
+        order: 2;
+    }
+
+    .sec-4-img{
+        order: 1;
+        margin-top: 13px;
+        height: 320px;
+        width: 270px;
+    }
+} 

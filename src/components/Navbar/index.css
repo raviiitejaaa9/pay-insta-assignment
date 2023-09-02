@@ -1,0 +1,54 @@
+/* Navbar.css */
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #fbfbfb;
+    padding: 10px 20px;
+  }
+  
+  .navbar-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+  }
+  
+  .navbar-item {
+    margin-right: 20px;
+  }
+  
+  .navbar-item a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+  }
+  
+  .courses-button button {
+    background-color: #ff6600;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  @media (max-width : 800px) {
+    .navbar {
+      flex-direction: column;
+    }
+
+    .navbar-item{
+      margin-right: 10px;
+    }
+
+    .navbar-item a {
+      font-size: 13px;
+    }
+
+    .courses-button {
+      margin-top: 10px;
+    }
+  }
+  

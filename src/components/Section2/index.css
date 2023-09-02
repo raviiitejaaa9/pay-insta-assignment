@@ -1,0 +1,47 @@
+.sec-2{
+    background-color: whitesmoke;
+    width: 100vw;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.sec-2-data{
+    display: flex;
+    flex-direction: column;
+}
+
+.sec-2-card{
+    width: 335px;
+    height: 130px;
+    border: 1px lightgray solid ;
+    border-radius: 13px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 5px;
+    background-color: #ffffff;
+}
+
+.sec-2-head {
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.sec-2-span {
+    font-weight: lighter;
+}
+
+@media (max-width : 800px){
+    .sec-2{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .sec-2-head{
+        font-size: 30px;
+    }
+} 
